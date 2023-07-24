@@ -12,8 +12,8 @@
 		<div class="container mx-auto flex justify-between items-center">
 			<h1 class="text-3xl font-black">Tailwind Example</h1>
 			<nav class="flex gap-2 items-center ">
-				<a class="font-bold text-gray-600" href="#">Login</a>
-				<a class="font-bold text-gray-600" href="#">Registro</a>
+				<a class="font-bold text-gray-600" href="{{route('login')}}">Login</a>
+				<a class="font-bold text-gray-600" href="{{route('register')}}">Registro</a>
 			</nav>
 		</div>
 	</header>
